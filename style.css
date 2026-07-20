@@ -90,3 +90,24 @@ cursor: no-drop;
     background-color: green;
     color: white;
 }
+
+@media (max-width: 450px){
+    .slider-controls{
+        display: flex;
+        flex-direction: column;
+        margin-left: 80px;
+        margin-top: 200px;
+    }
+    .slider-controls .indecators ul{
+        margin-top: 12px;
+        margin-bottom: 12px;
+        float: left;
+    }
+    .slider-container img{
+        width: 100vw;
+        height: 60vh;
+        object-fit: cover;
+        margin-bottom: 30px;
+    }
+    
+}
