@@ -13,6 +13,7 @@ padding: 0;
 }
 body{
     overflow-x: hidden;
+    width: 100%;
 }
 
 .slider-container img{
